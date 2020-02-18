@@ -1,0 +1,5 @@
+﻿ALTER TABLE Enrollments ADD 
+AssignedCampus VARCHAR(MAX) NOT NULL DEFAULT 0,
+EnrollmentSemester VARCHAR(MAX) NOT NULL DEFAULT 0,
+EnrollmentYear INT NOT NULL DEFAULT 0
+GO
